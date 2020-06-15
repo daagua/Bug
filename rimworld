@@ -1,0 +1,1046 @@
+
+Mod  is missing supported versions list in About.xml! (example: <supportedVersions><li>1.0</li></supportedVersions>)
+Verse.Log:Warning(String, Boolean)
+Verse.ModMetaDataInternal:TryParseSupportedVersions(Boolean)
+Verse.ModMetaData:Init()
+Verse.ModMetaData:.ctor(String, Boolean)
+Verse.ModLister:RebuildModList()
+Verse.ModLister:.cctor()
+Verse.ModsConfig:.cctor()
+Verse.LoadedModManager:InitializeMods()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Mod zip is missing packageId in About.xml! (example: <packageId>AuthorName.ModName.Specific</packageId>)
+Verse.Log:Warning(String, Boolean)
+Verse.ModMetaDataInternal:TryParsePackageId(Boolean, Boolean)
+Verse.ModMetaData:Init()
+Verse.ModMetaData:.ctor(String, Boolean)
+Verse.ModLister:RebuildModList()
+Verse.ModLister:.cctor()
+Verse.ModsConfig:.cctor()
+Verse.LoadedModManager:InitializeMods()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error while instantiating a mod of type HarmonyMod.HarmonyMain: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.PatchProcessor.VersionInfo (System.Version& currentVersion) [0x00016] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.VersionInfo (System.Version& currentVersion) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyMod.HarmonyMain..ctor (Verse.ModContentPack content) [0x00007] in <ee898a9401cc4361a1ea69bc4a1fad73>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <567df3e0919241ba98db88bec4c6696f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00076] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error while instantiating a mod of type ModManager.ModManager: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> HarmonyLib.HarmonyException: Patching exception in method UnityEngine.Rect Verse.WindowResizer.DoResizeControl(UnityEngine.Rect) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at ModManager.ModManager..ctor (Verse.ModContentPack content) [0x0001c] in <3644494e6e614eeeb6af74efad297307>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <567df3e0919241ba98db88bec4c6696f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00076] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+[HugsLib][ERR] Exception during InitializeController: System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HugsLib.Utils.AssemblyVersionInfo.ReadModAssembly (System.Reflection.Assembly assembly, Verse.ModContentPack contentPack) [0x00017] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+  at HugsLib.HugsLibController.ReadOwnVersion () [0x00047] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+  at HugsLib.HugsLibController.InitializeController () [0x00002] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+Verse.Log:Error(String, Boolean)
+HugsLib.Utils.ModLogger:ReportException(Exception, String, Boolean, String)
+HugsLib.HugsLibController:InitializeController()
+HugsLib.HugsLibController:EarlyInitialize()
+HugsLib.Core.HugsLibMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error while instantiating a mod of type AbilityUser.AbilityUserMod: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at AbilityUser.AbilityUserMod..ctor (Verse.ModContentPack content) [0x00041] in <ff7579bc5c7d4f939ad8aefc31cf5706>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <567df3e0919241ba98db88bec4c6696f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00076] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error while instantiating a mod of type Fluffy_BirdsAndBees.Controller: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> HarmonyLib.HarmonyException: Patching exception in method System.Void RimWorld.DefGenerator.GenerateImpliedDefs_PreResolve() ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at Fluffy_BirdsAndBees.Controller..ctor (Verse.ModContentPack content) [0x00016] in <d9aae5bf3af14fe1a9b4502fcdbb624a>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <567df3e0919241ba98db88bec4c6696f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00076] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error while instantiating a mod of type CommonSense.CommonSense: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> HarmonyLib.HarmonyException: Patching exception in method Verse.AI.Job RimWorld.WorkGiver_Merge.JobOnThing(Verse.Pawn, Verse.Thing, System.Boolean) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CommonSense.CommonSense..ctor (Verse.ModContentPack content) [0x00017] in <3ecde58463224f83b01ce35df5423d54>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <567df3e0919241ba98db88bec4c6696f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00076] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error while instantiating a mod of type Fluffy.Controller: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> HarmonyLib.HarmonyException: Patching exception in method System.Void RimWorld.DefGenerator.GenerateImpliedDefs_PreResolve() ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at Fluffy.Controller..ctor (Verse.ModContentPack content) [0x00016] in <3e04021160414e6597db51d6ca8db083>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <567df3e0919241ba98db88bec4c6696f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0007a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.MonoCMethod.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x00213] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x00095] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00076] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Error in static constructor of RimHUD.Mod: System.TypeInitializationException: The type initializer for 'RimHUD.Mod' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Void RimWorld.InspectPaneFiller.DoPaneContentsFor(Verse.ISelectable, UnityEngine.Rect) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll () [0x0001b] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at RimHUD.Mod..cctor () [0x00045] in <3172c9ca161941848a1cab37e6124793>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+[HugsLib][ERR] Exception during RegisterOwnSettings: System.NullReferenceException: Object reference not set to an instance of an object
+  at HugsLib.HugsLibController.RegisterOwnSettings () [0x00008] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+Verse.Log:Error(String, Boolean)
+HugsLib.Utils.ModLogger:ReportException(Exception, String, Boolean, String)
+HugsLib.HugsLibController:RegisterOwnSettings()
+HugsLib.HugsLibController:LateInitialize()
+HugsLib.Core.StaticInitializer:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+[HugsLib][ERR] An exception occurred during late initialization: System.NullReferenceException: Setting handle not initialized
+  at HugsLib.Quickstart.QuickstartController.get_Settings () [0x0000d] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+  at HugsLib.Quickstart.QuickstartController.EnumerateMapSizes () [0x00144] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+  at HugsLib.Quickstart.QuickstartController.Initialize () [0x00026] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+  at HugsLib.HugsLibController.LateInitialize () [0x0006b] in <a5967e71a88c4226ab09a2b55a996b0d>:0 
+Verse.Log:Error(String, Boolean)
+HugsLib.Utils.ModLogger:Error(String, Object[])
+HugsLib.HugsLibController:LateInitialize()
+HugsLib.Core.StaticInitializer:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of JecsTools.HarmonyCaravanPatches: System.TypeInitializationException: The type initializer for 'JecsTools.HarmonyCaravanPatches' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at JecsTools.HarmonyCaravanPatches..cctor () [0x00037] in <4c1bbf1d319447689c111acdb690ef11>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of JecsTools.HarmonyPatches: System.TypeInitializationException: The type initializer for 'JecsTools.HarmonyPatches' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at JecsTools.HarmonyPatches..cctor () [0x0006b] in <4c1bbf1d319447689c111acdb690ef11>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of JecsTools._HumanlikeOrdersUtility: System.TypeInitializationException: The type initializer for 'JecsTools._HumanlikeOrdersUtility' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at JecsTools._HumanlikeOrdersUtility..cctor () [0x001b8] in <4c1bbf1d319447689c111acdb690ef11>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CompActivatableEffect.HarmonyCompActivatableEffect: System.TypeInitializationException: The type initializer for 'CompActivatableEffect.HarmonyCompActivatableEffect' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CompActivatableEffect.HarmonyCompActivatableEffect..cctor () [0x0003b] in <22534103c4be4020b575c00b7fd16d18>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of DefModExtension_BigBox.HarmonyDefModExtension_BigBox: System.TypeInitializationException: The type initializer for 'DefModExtension_BigBox.HarmonyDefModExtension_BigBox' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at DefModExtension_BigBox.HarmonyDefModExtension_BigBox..cctor () [0x0003a] in <e179732542e94789a76bd85dcb11ced1>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CompDeflector.HarmonyCompDeflector: System.TypeInitializationException: The type initializer for 'CompDeflector.HarmonyCompDeflector' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CompDeflector.HarmonyCompDeflector..cctor () [0x00038] in <69a60d44de9547a58d1bc2c092796be1>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CompExtraSounds.HarmonyCompExtraSounds: System.TypeInitializationException: The type initializer for 'CompExtraSounds.HarmonyCompExtraSounds' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CompExtraSounds.HarmonyCompExtraSounds..cctor () [0x00039] in <fc7ded1bad0f48248db43b1b2ed51b9d>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CompInstalledPart.HarmonyCompInstalledPart: System.TypeInitializationException: The type initializer for 'CompInstalledPart.HarmonyCompInstalledPart' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CompInstalledPart.HarmonyCompInstalledPart..cctor () [0x0003c] in <f93ffe8dbb46418f97c0a6fa37c29dd7>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CompOversizedWeapon.HarmonyCompOversizedWeapon: System.TypeInitializationException: The type initializer for 'CompOversizedWeapon.HarmonyCompOversizedWeapon' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CompOversizedWeapon.HarmonyCompOversizedWeapon..cctor () [0x0003a] in <a9b18aaf328e49b6b7520efd4ecb5b47>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CompSlotLoadable.HarmonyCompSlotLoadable: System.TypeInitializationException: The type initializer for 'CompSlotLoadable.HarmonyCompSlotLoadable' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CompSlotLoadable.HarmonyCompSlotLoadable..cctor () [0x00077] in <909cfde611cc4348948db7f056877106>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of PawnShields.HarmonyPatches: System.TypeInitializationException: The type initializer for 'PawnShields.HarmonyPatches' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at PawnShields.HarmonyPatches..cctor () [0x00042] in <7dfffb4050294246bd8ef659641a0703>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of Bubbles.Mod: System.TypeInitializationException: The type initializer for 'Bubbles.Mod' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Void RimWorld.PlaySettings.DoPlaySettingsGlobalControls(Verse.WidgetRow, System.Boolean) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll () [0x0001b] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at Bubbles.Mod..cctor () [0x0000f] in <b889e13a5b654ebb9be0282dde894ed1>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of EdB.PrepareCarefully.HarmonyPatches.Main: System.TypeInitializationException: The type initializer for 'EdB.PrepareCarefully.HarmonyPatches.Main' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Void RimWorld.Page_ConfigureStartingPawns.PreOpen() ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at EdB.PrepareCarefully.HarmonyPatches.Main..cctor () [0x00011] in <ec2c20a2c7944a728b111fa018b5b14a>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of CultOfCthulhu.HarmonyPatches: System.TypeInitializationException: The type initializer for 'CultOfCthulhu.HarmonyPatches' threw an exception. ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x0006d] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x00028] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at CultOfCthulhu.HarmonyPatches..cctor () [0x0003f] in <2576523be3f94a608ec77993c5c99625>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.Patcher(): Starting.
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.ApplyPatchIfRequired: Skipping Applying Patch: Embrasures
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patch:ApplyPatchIfRequired(Harmony)
+EnhancedDevelopment.Embrasures.<>c__DisplayClass0_0:<.cctor>b__0(Patch)
+System.Collections.Generic.List`1:ForEach(Action`1)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.Patcher(): Complete.
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of AlphaAnimalRangeAttack.AnimalRangeAttack_Init: System.TypeInitializationException: The type initializer for 'AlphaAnimalRangeAttack.AnimalRangeAttack_Init' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method Verse.Verb Verse.Pawn.TryGetAttackVerb(Verse.Thing, System.Boolean) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at AlphaAnimalRangeAttack.AnimalRangeAttack_Init..cctor () [0x00012] in <65ed89217469479f9658e9420a2c7ed0>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of AlphaBehavioursAndEvents.Main: System.TypeInitializationException: The type initializer for 'AlphaBehavioursAndEvents.Main' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Single RimWorld.MassUtility.Capacity(Verse.Pawn, System.Text.StringBuilder) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at AlphaBehavioursAndEvents.Main..cctor () [0x00012] in <860020976551485b9c94c36b1de3b9ed>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of NewAlphaAnimalSubproducts.Main: System.TypeInitializationException: The type initializer for 'NewAlphaAnimalSubproducts.Main' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Collections.Generic.IEnumerable`1<Verse.Thing> Verse.Thing.ButcherProducts(Verse.Pawn, System.Single) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at NewAlphaAnimalSubproducts.Main..cctor () [0x00012] in <7d9dae3f2354484ab94eda1aeb9c610d>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of NocturnalAnimals.HarmonyPatches: System.TypeInitializationException: The type initializer for 'NocturnalAnimals.HarmonyPatches' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Collections.Generic.IEnumerable`1<RimWorld.StatDrawEntry> Verse.ThingDef.SpecialDisplayStats(RimWorld.StatRequest) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll () [0x0001b] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at NocturnalAnimals.HarmonyPatches..cctor () [0x0000c] in <c5c7cefc32a44e1985af236659537d0f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Medical Tab :: Adding FertilitySource to the list of required capacities for Fertility.
+Verse.Log:Message(String, Boolean)
+Fluffy.CapacityUtility:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
+
+Error in static constructor of ProperShotguns.HarmonyPatches: System.TypeInitializationException: The type initializer for 'ProperShotguns.HarmonyPatches' threw an exception. ---> HarmonyLib.HarmonyException: Patching exception in method System.Boolean Verse.AI.Pawn_MindState.CanStartFleeingBecauseOfPawnAction(Verse.Pawn) ---> System.ExecutionEngineException: String conversion error: Illegal byte sequence encounted in the input.
+  at (wrapper managed-to-native) System.Reflection.Assembly.get_code_base(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetCodeBase (System.Boolean escaped) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.get_CodeBase () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.AssemblyName.Create (System.Reflection.Assembly assembly, System.Boolean fillCodebase) [0x00010] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.RuntimeAssembly.GetName (System.Boolean copiedName) [0x0000e] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at System.Reflection.Assembly.GetName () [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at HarmonyLib.HarmonySharedState+<>c.<SharedStateAssembly>b__5_1 (System.Reflection.Assembly a) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate, System.Boolean& found) [0x0003f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.FirstOrDefault[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at HarmonyLib.HarmonySharedState.SharedStateAssembly () [0x0002e] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetState () [0x00010] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.HarmonySharedState.GetPatchInfo (System.Reflection.MethodBase method) [0x00000] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.ProcessPatchJob (HarmonyLib.PatchJobs`1+Job[T] job) [0x00031] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00086] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00082] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00007] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at HarmonyLib.Harmony.PatchAll () [0x0001b] in <ce739825a2f8415a8bb31324b20d81ac>:0 
+  at ProperShotguns.HarmonyPatches..cctor () [0x00001] in <f5dbc6cdae6c47f5946bcab640661783>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <567df3e0919241ba98db88bec4c6696f>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x0001a] in <0ee2c524c4be441e9b7f8bfcb20aca6f>:0 
+Verse.Log:Error(String, Boolean)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:Update()
+Verse.Root_Entry:Update()
